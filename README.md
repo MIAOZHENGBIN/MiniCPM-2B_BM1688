@@ -1,0 +1,2 @@
+# MiniCPM-2B_BM1688
+MiniCPM-2B在BM1688上部署
