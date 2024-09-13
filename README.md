@@ -101,9 +101,9 @@ tokenizer已提供，位于路径`/cpp/token_config`下，可直接使用。
 
 # 2. 连接BM1688
 通过网线连接BM1688上的LAN口和x86主机，修改主机ip为`192.168.150.2`，使用MobaXterm软件进行远程操控，通过SSH进行连接，BM1688的ip为`192.168.150.1`，用户名和密码均为`admin`，将通过上一步骤得到的模型相关文件下载至BM1688上。
-![IPv4](./pisc/IPv4.png)  
-![SSH](./pisc/SSH.png)  
-![password](./pisc/password.png)
+![IPv4](./pics/IPv4.png)  
+![SSH](./pics/SSH.png)  
+![password](./pics/password.png)
 
 # 3. 例程测试
 以下步骤在BM1688上进行：  
@@ -145,14 +145,14 @@ make -j
 ## 3.3 实验结果
 单核模型
 - seq_length默认(512)
-![result1](./pics/result1)
+![result1](./pics/result1.png)
 - seq_length=1024
-![result2](./pics/result2)
+![result2](./pics/result2.png)
 双核模型
 - seq_length默认(512)
-![result3](./pics/result3)
+![result3](./pics/result3.png)
 - seq_length=1024
-![result4](./pics/result4)
+![result4](./pics/result4.png)
 
 <div align='center'>
   
