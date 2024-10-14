@@ -36,6 +36,7 @@ pip3 install dfss --upgrade
 python3 -m dfss --url=open@sophgo.com:sophon-demo/MiniCPM/tpu-mlir_latest.tar.gz
 ```
 - 解压
+```bash
 tar -xzvf tpu-mlir_latest.tar.gz
 ```
 
